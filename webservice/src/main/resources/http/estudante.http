@@ -1,0 +1,31 @@
+###
+# Listar todos os estudantes (GET)
+GET http://localhost:8080/estudantes
+
+###
+# Buscar estudante pelo ID XX (GET)
+GET http://localhost:8080/estudantes/2
+
+###
+# Criar um novo estudante (POST)
+POST http://localhost:8080/estudantes
+Content-Type: application/json
+
+{
+  "nome": "Kaua Alencar",
+  "email": "KauaAlencar@gmail.com"
+}
+
+###
+# Atualizar o estudante com ID XX (PUT)
+PUT http://localhost:8080/estudantes/1
+Content-Type: application/json
+
+{
+  "nome": "Moises Atual",
+  "email": "mfilhoatualizado@gmail.com"
+}
+
+###
+# Deletar o estudante com ID XX (DELETE)
+DELETE http://localhost:8080/estudantes/3
