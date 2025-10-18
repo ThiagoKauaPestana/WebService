@@ -1,4 +1,4 @@
-package com.example.webservice; // <--- CORRIGIDO
+package com.example.webservice; 
 
 public class Empresa {
     private int id;
